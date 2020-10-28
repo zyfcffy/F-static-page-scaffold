@@ -1,3 +1,7 @@
+header,
+main {
+  border: 1px solid red;
+}
 body,
 html {
   margin: 0;
@@ -17,4 +21,31 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  padding: 0 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b5998;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.register-button {
+  background-color: #42b72a;
+  color: white;
+  margin: 0 10px;
+  border: none;
+  height: 20px;
+}
+
+.content {
+  padding: 0 20%;
+  background-color: #e9ebee;
 }
